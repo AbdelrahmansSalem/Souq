@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/seller_navigation"
+    app:startDestination="@id/seller_my_products">
+
+    <fragment
+        android:id="@+id/seller_my_products"
+        android:name="com.example.souq.Seller_my_products"
+        android:label="fragment_seller_my_products"
+        tools:layout="@layout/fragment_seller_my_products" />
+    <fragment
+        android:id="@+id/seller_add_product"
+        android:name="com.example.souq.Seller_add_product"
+        android:label="fragment_seller_add_product"
+        tools:layout="@layout/fragment_seller_add_product" />
+    <fragment
+        android:id="@+id/seller_profile"
+        android:name="com.example.souq.Seller_profile"
+        android:label="fragment_seller_profile"
+        tools:layout="@layout/fragment_seller_profile" />
+</navigation>

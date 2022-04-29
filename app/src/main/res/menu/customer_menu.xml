@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:id="@+id/customer_Home"
+        android:icon="@drawable/ic_baseline_products_24"
+        />
+    <item
+        android:title="News"
+        android:id="@+id/customer_Blank"
+        android:icon="@drawable/ic_baseline_blinds_news_24"
+        />
+    <item
+        android:title="Profile"
+        android:id="@+id/customer_Profile"
+        android:icon="@drawable/ic_baseline_profile_24"
+        />
+
+
+</menu>

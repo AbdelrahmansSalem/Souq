@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="My Products"
+        android:id="@+id/seller_my_products"
+        android:icon="@drawable/ic_baseline_products_24"
+        />
+    <item
+        android:title="Add Product"
+        android:id="@+id/seller_add_product"
+        android:icon="@drawable/ic_baseline_playlist_add_24"
+        />
+    <item
+        android:title="Profile"
+        android:id="@+id/seller_profile"
+        android:icon="@drawable/ic_baseline_profile_24"
+        />
+
+
+
+</menu>

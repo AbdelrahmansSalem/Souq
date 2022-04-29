@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_navigation"
+    app:startDestination="@id/admin_home">
+
+    <fragment
+        android:id="@+id/admin_home"
+        android:name="com.example.souq.Admin_home"
+        android:label="fragment_admin_home"
+        tools:layout="@layout/fragment_admin_home" />
+    <fragment
+        android:id="@+id/admin_users"
+        android:name="com.example.souq.Admin_users"
+        android:label="fragment_admin_users"
+        tools:layout="@layout/fragment_admin_users" />
+    <fragment
+        android:id="@+id/admin_pending"
+        android:name="com.example.souq.Admin_pending"
+        android:label="fragment_admin_pending"
+        tools:layout="@layout/fragment_admin_pending" />
+</navigation>
